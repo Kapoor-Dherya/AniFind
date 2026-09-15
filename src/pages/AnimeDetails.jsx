@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { ArrowLeft, Heart, Star } from "lucide-react";
 
-import { getAnimeById } from "../services/jikanApi";
+import { getAnimeById } from "../services/jikanAPI";
 
 function AnimeDetails() {
   const { id } = useParams();
