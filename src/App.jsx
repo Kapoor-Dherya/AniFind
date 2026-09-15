@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 
 import { Routes, Route, useLocation, useNavigate } from "react-router-dom";
 
-import { getTopAnime, searchAnime } from "./services/jikanApi";
+import { getTopAnime, searchAnime } from "./services/jikanAPI";
 
 import AnimeCard from "./components/AnimeCard";
 import Navbar from "./components/Navbar";
